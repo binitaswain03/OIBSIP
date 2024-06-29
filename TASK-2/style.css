@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(138, 32, 41);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ac886a;
+    color: #1b0303;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+}
+section {
+    padding: 40px 0;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    color: #0f1c2b;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.project {
+    background-color: rgb(211, 171, 95);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(123, 69, 69, 0.1);
+}
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.project p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+#skills li{
+    background-color: rgb(211, 171, 95);
+    padding: 5px 10px;
+    margin: 5px;  
+}
+.contact{
+    background-color: rgb(211, 171, 95);
+}
